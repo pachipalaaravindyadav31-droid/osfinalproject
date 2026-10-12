@@ -1,0 +1,24 @@
+# Compiled executables
+/build/
+/pipeflow
+/src/main
+/src/filter_pipeline
+/src/source_sink
+/src/transform_pipeline
+
+# Backup files
+*.backup
+*~
+
+# Generated test data and logs
+data/large_input.txt
+data/output.txt
+data/fanin.txt
+data/fanout_a.txt
+data/fanout_b.txt
+data/backpressure.log
+data/sigpipe.log
+data/sigterm_test.log
+
+# Generated test configurations
+config/test_*.conf
